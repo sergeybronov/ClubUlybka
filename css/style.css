@@ -21,6 +21,11 @@ body {
     font-weight: 400;
     /*font-size: 16px;*/
     line-height: 1.7;
+    color: #5f5e5e;
+}
+
+.u-center-text {
+    text-align: center;
 }
 
 /*---HEADER---*/
@@ -53,9 +58,7 @@ header {
     padding-left: 1rem;
 }
 
-
-
-.main-heading {
+.heading-primary {
     color: #fff;
     font-size: 4.5rem;
     text-transform: uppercase;
@@ -81,3 +84,41 @@ header {
     }
   }
   
+
+/*-----MAIN------*/
+
+        /*---SECTION ABOUT---*/
+
+
+.section-about {
+    background-color: #f7f7f7;
+    padding: 7rem 0;
+    height: 100%;
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: .2rem;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.heading-secondary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba(#000, .2);
+}
+
+.info {
+    font-size: 2rem;
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box {
+    width: 40%;
+}
