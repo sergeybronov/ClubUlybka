@@ -1,0 +1,83 @@
+/*
+COLORS:
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /*10px*/
+  }
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+}
+
+/*---HEADER---*/
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(126, 213, 111,0), rgba(126, 213, 111,0.7)), url('../resources/img/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact li {
+    list-style: none;
+    margin: 0 3rem;
+    padding-top: 1rem;
+    display: block;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.contact span {
+    padding-left: 1rem;
+}
+
+.contact a  {
+    color: #fff;
+    letter-spacing: 0.3rem;
+    padding-left: 1rem;
+}
+
+
+
+.main-heading {
+    color: #fff;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, 50%);
+
+    animation-name: moveInBottom;
+    animation-duration: 5s;
+}
+
+@keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, 25rem);
+    }
+    
+    100% {
+     opacity: 1;
+    }
+  }
+  
