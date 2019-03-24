@@ -122,3 +122,27 @@ header {
 .info-box {
     width: 40%;
 }
+
+          /*-----RESULTS-----*/
+
+#results {
+    padding: 7rem 0;
+}
+
+.before-after {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+          
+.photo {
+    width: 23%;
+    height: 23%;
+}
+
+#results p {
+    font-size: 1.5rem;
+    padding: 3% 3% 0 3%;
+}
