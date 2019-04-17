@@ -22,6 +22,7 @@ body {
     /*font-size: 16px;*/
     line-height: 1.7;
     color: #5f5e5e;
+    margin: 3rem;
 }
 
 .u-center-text {
@@ -59,6 +60,7 @@ header {
 }
 
 .heading-primary {
+    font-family: 'Playfair Display', serif;
     color: #fff;
     font-size: 4.5rem;
     text-transform: uppercase;
@@ -87,16 +89,18 @@ header {
 
 /*-----MAIN------*/
 
-        /*---SECTION ABOUT---*/
+        /*---SECTION ABOUT CLUB---*/
 
 
-.section-about {
+.section-about-club {
     background-color: #f7f7f7;
+    margin-top: 3rem;
     padding: 7rem 0;
     height: 100%;
 }
 
 .heading-secondary {
+    font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -107,10 +111,12 @@ header {
     color: transparent;
 }
 
+/*
 .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .2);
 }
+*/
 
 .info {
     font-size: 2rem;
@@ -122,6 +128,79 @@ header {
 .info-box {
     width: 40%;
 }
+
+        /*---SECTION ABOUT ME---*/
+
+#about-me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+          
+.about-box {
+    /*border: 1px solid #000;*/
+    width: 45%;
+    height: 70%
+}
+          
+.about-me-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: -2%;
+}
+.about-me-text h2 {
+    padding-bottom: 3%; 
+    padding-left: 35%;
+}
+          
+.about-me-img {
+    background-image: url('https://www.firestock.ru/download/s/qqu8o89s9hn1yvk/Fotolia_54160475_M.jpg?dl=0');
+    background-size: cover;
+}
+
+        /*-----MAIN PRODUCTS-----*/
+
+#main-products h2 {
+    padding: 3%;
+}
+          
+#main-products {
+    background-color: #f7f7f7;        
+}
+          
+.main-products-box {
+    /*border: 1px solid #000;*/
+    width: ;
+    height: 60vh;
+    display: flex;
+}
+          
+.main-products-img {
+    background-image: url('https://pbs.twimg.com/media/DyppprCXQAEhlb_.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+          
+.main-products-text {
+    width: 50%;
+    padding-top: 3%;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+          
+.main-products-text h3 {
+    text-align: center;
+    color: #28b485;
+}
+          
+.main-products-text p {
+    padding: 3%;
+}
+          
 
           /*-----RESULTS-----*/
 
@@ -149,36 +228,73 @@ header {
 
          /*---PRICE---*/
 
-#price {
-    width: 100%;
+#section-price {
     background-color: #f7f7f7;
-    padding: 10rem 0;
-}   
+    margin-bottom: 3rem;
+    padding: 3%;
+}
 
-.price-boxes {
-    width: 70%;
-    margin: 0 auto;
+.section-price-title {
+    text-align: center;
+    padding: 3%;
+}
+
+.price {
+    /*border: 1px solid blue;*/
+    height: 30vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .price-box {
-    border: 1px solid #c2dfc2;
-    height: 25rem;
-    width: 20rem;
-    background-image: linear-gradient(to right, #7ed56f, #28b485);
-}
-
-.price-box p {
+    /*border: 1px solid red;*/
+    width: 30%;
+    height: 50%;
+    background-color: #fff;
+    color: #28b485;
+    border-radius: 5px;
     font-size: 3rem;
-    color: #fff;
+    padding: 2%;
     text-align: center;
-    text-transform: uppercase;
+    box-shadow: 0 2px 3px #e3e3e3;
+    /*efefef*/
+} 
+
+.price-box-middle {
+    height: 70%;
 }
 
-.rub {
-    text-transform: lowercase;
+.best-price {
+    color: #ff0000;
 }
+
+.price-including {
+    font-size: 2rem;
+    padding: 3%;
+}
+
+.price-including h3 {
+    font-family: 'Playfair Display', serif;
+    color: #55c57a;
+    text-align: center;
+    padding: 2%;
+}
+
+.price-including-list, .academy-success-list {
+    list-style: none;
+}
+
+.academy-success-list li {
+    padding-left: 7%;
+}
+
+.fa-check {
+    color: green;
+    padding-right: 1%;
+}
+          
+                    
 
         /*-----BOOKING-----*/
 
@@ -207,6 +323,18 @@ header {
 
 .book-margin {
     margin-bottom: 4rem;
+}
+
+.heading-secondary-reg {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: .2rem;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .form-group:not(:last-child) {
@@ -270,6 +398,7 @@ footer {
 }
 
 footer h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -278,4 +407,27 @@ footer h2 {
     color: transparent;
     text-align: center;
     padding-top: 2rem;
+}
+
+.footer-info {
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.footer nav {
+    
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-nav ul li {
+    padding-right: 10%;
 }
