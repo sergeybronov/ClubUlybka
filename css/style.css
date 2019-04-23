@@ -672,3 +672,38 @@ footer h2 {
   .footer-link a:hover {
       color: #28b485;
   }
+
+  /*---Products page---*/
+
+  .products-wrapper {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+   .product-box {
+    width: 30%;
+    padding-bottom: 3%;
+  }
+  
+  .product-box img {
+    width: 100%;
+  }
+  
+  .product-box h3,
+  .product-box h4 {
+    text-align: center;
+    padding: 1% 0%;
+  }
+  
+  .product-box p {
+    padding: 2%;
+    line-height: 1.5;
+  }
+  
+  .product-box h3,
+  .product-box h4,
+  .product-box p {
+    font-size: 1.5rem;
+  }
