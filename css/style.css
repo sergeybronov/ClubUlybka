@@ -31,7 +31,7 @@ body {
 
 /*---HEADER---*/
 
-header {
+#header {
     height: 100vh;
     background-image: linear-gradient(to left, rgba(126, 213, 111,0), rgba(126, 213, 111,0.7)), url('../resources/img/main.jpg');
     background-position: center;
@@ -72,14 +72,14 @@ header {
   .menu-wrap {
     position: fixed;
     top: 4.5%;
-    right: 2.5%;
+    right: 2.3%;
     z-index: 1;
   }
   
   .menu-wrap .toggler {
     position: absolute;
     top: 4.5%;
-    right: 2.5%;
+    right: 2.3%;
     z-index: 2;
     cursor: pointer;
     width: 50px;
@@ -90,7 +90,7 @@ header {
   .menu-wrap .hamburger {
     position: absolute;
     top: 4.5%;
-    right: 2.5%;
+    right: 2.3%;
     z-index: 1;
     width: 60px;
     height: 60px;
@@ -166,25 +166,25 @@ header {
   .menu-wrap .menu {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 2.3%;
     width: 100%;
     height: 100%;
     visibility: hidden;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
   }
   
   .menu-wrap .menu > div {
     background: var(--overlay-color);
-    border-radius: 50%;
-    width: 200vw;
-    height: 200vw;
+    border-radius: 0%;
+    width: 20vw;
+    height: 100vh;
     display: flex;
     flex: none;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     transform: scale(0);
     transition: all 0.4s ease;
   }
@@ -229,9 +229,15 @@ header {
   .icons-messengers {
     margin-bottom: 5%;
   }
+
+  .first-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 
+  }
   
   .icons-social-media p {
     margin-bottom: 3%;
+    font-family: 'Playfair Display', serif;
   }
   
   .fab {
@@ -307,7 +313,7 @@ header {
         /*---SECTION ABOUT CLUB---*/
 
 
-.section-about-club {
+#section-about-club {
     background-color: #f7f7f7;
     margin-top: 3rem;
     padding: 7rem 0;
@@ -371,9 +377,10 @@ header {
 }
           
 .about-me-img {
-    background-image: url('https://www.firestock.ru/download/s/qqu8o89s9hn1yvk/Fotolia_54160475_M.jpg?dl=0');
+    background-image: url('../resources/img/about_me.jpg');
     background-size: cover;
-}
+    background-position: center;
+  }
 
         /*-----MAIN PRODUCTS-----*/
 
@@ -393,11 +400,22 @@ header {
 }
           
 .main-products-img {
-    background-image: url('https://pbs.twimg.com/media/DyppprCXQAEhlb_.jpg');
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 100%;
+}
+
+.main-products-img-1 {
+  background-image: url('../resources/img/Formula_cap.jpg');
+}
+
+.main-products-img-2 {
+  background-image: url('../resources/img/aloe_klass.jpg');
+}
+
+.main-products-img-3 {
+  background-image: url('../resources/img/tea_classic_50.jpg');
 }
           
 .main-products-text {
@@ -412,8 +430,18 @@ header {
     color: #28b485;
 }
           
-.main-products-text p {
+.main-products-text p,
+.main-products-text a {
     padding: 3%;
+}
+
+.main-products-text a {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.main-products-text a:hover {
+  color: #7ed56f;
 }
           
 
