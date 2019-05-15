@@ -232,7 +232,6 @@ body {
 
   .first-name {
     font-family: 'Playfair Display', serif;
-    font-weight: 
   }
   
   .icons-social-media p {
@@ -306,9 +305,21 @@ body {
      opacity: 1;
     }
   }
-  
 
-/*-----MAIN------*/
+  .partner {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 15%;
+    left: 1%;
+  }
+
+  .partner p {
+    letter-spacing: 2px;
+  }
 
         /*---SECTION ABOUT CLUB---*/
 
@@ -354,16 +365,17 @@ body {
 
 #about-me {
     width: 100%;
-    height: 100vh;
+    height: 160vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
           
 .about-box {
-    /*border: 1px solid #000;*/
     width: 45%;
-    height: 70%
+    height: 90%;
 }
           
 .about-me-text {
@@ -394,7 +406,6 @@ body {
           
 .main-products-box {
     /*border: 1px solid #000;*/
-    width: ;
     height: 60vh;
     display: flex;
 }
@@ -544,15 +555,17 @@ body {
 #section-book {
     padding: 10rem 10rem;
     background-image: linear-gradient(to right bottom,  #7ed56f, #28b485);
+    display: flex;
 }
 
 .book {
-    background-image: linear-gradient(105deg,
-                                     rgba(255, 255, 255, .9) 0%,
-                                     rgba(255, 255, 255, .9) 50%,
-                                        transparent 50%),
-                                     url(../resources/img/book.jpg);
+    background-image: linear-gradient(
+                                     rgba(255, 255, 255, .9) 100%,
+                                     rgba(255, 255, 255, .9) 100%,
+                                        transparent 100%),
+                                     url(../resources/img/booking-prod.jpg);
     background-size: 100%;
+    background-position: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .2);
 
@@ -564,12 +577,20 @@ body {
     padding: 6rem;
 }
 
+.book-image {
+  width: 100%;
+  background-image: url('../resources/img/book.jpg');
+  background-size: cover;
+  background-position: center;
+ }
+
 .book-margin {
     margin-bottom: 4rem;
+    width: 300%;
 }
 
 .heading-secondary-reg {
-    font-family: "Lato", sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -581,7 +602,7 @@ body {
 }
 
 .form-group:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: rem;
 }
 
 .form-input {
@@ -593,7 +614,7 @@ body {
     background-color: rgba(255, 255, 255,.5);
     border: none;
     border-bottom: 3px solid transparent;
-    width: 90%;
+    width: 300%;
     display: block;
 }
 
@@ -654,26 +675,59 @@ footer h2 {
 
 .footer-info {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: space-around;
     margin-top: 3%;
 }
 
-.footer-link li {
-    list-style: none;
-    padding: 5% 16%;
+.footer-media {
+  width: 15%;
+}
+  
+.f-w {
+    color: #fff;
+    padding-right: 5%;
   }
   
-  .footer-link a {
-      color: #fff;
-  }
-  
-  .footer-link a:hover {
+.f-w:hover {
       color: #28b485;
   }
 
+  .herbalife-link {
+    margin-left: 12%;
+    text-align: center;
+  }
+
+  .herbalife-link a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .herbalife-link a:hover {
+    color: #28b485;
+  }
+
   /*---Products page---*/
+
+  .fa-arrow-left {
+    position: fixed;
+    top: 5.5%;
+    left: 1.5%;
+    color: #28b485;;
+    font-size: 3.5rem;
+  }
+
+  .products-info {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #28b485;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+  }
 
   .products-wrapper {
     margin: 3%;
@@ -705,5 +759,5 @@ footer h2 {
   .product-box h3,
   .product-box h4,
   .product-box p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
