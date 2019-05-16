@@ -182,6 +182,7 @@
 
 }
 
+
 /* 481px-767px */
 
 @media only screen and (max-width: 767px) {
@@ -260,7 +261,6 @@
 
     .main-products-box {
         display: block;
-        height: vh;
     }
 
     .main-products-img {
@@ -347,5 +347,120 @@
         margin: 0 auto;
       }
 
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .menu-wrap .menu > div {
+        width: 45vw;
+        }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .menu a {
+        font-size: 1.5rem;
+    }
+
+    .menu-wrap .menu > div {
+        width: 40vw;
+        }
+    
+    /*---About me---*/
+
+    #about-me {
+        height: 290vh;
+    }
+
+    /*---MAIN PRODUCTS---*/
+
+    .main-products-box {
+        height: 110vh;
+    }
+
+    /*---PRICE---*/
+
+    .best-price {
+        font-size: 2.1rem;
+    }
+
+    /*---BOOK---*/
+
+    .form-input {
+        width: 300%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .menu-wrap .menu > div {
+        width: 42vw;
+        }
+
+        /*---ABOUT ME---*/
+
+        #about-me {
+            height: 310vh;
+        }
+
+        /*---SECTION BOOK---*/
+
+        #section-book {
+            height: 140vh;
+            padding: 0;
+        }
+    
+}
+
+@media only screen and (max-width: 320px) {
+
+    .menu a {
+        font-size: 1.4rem;
+    }
+
+    .menu-wrap .menu > div {
+        width: 44vw;
+        }    
+
+    /*---HEADER---*/
+
+    .heading-primary {
+        top: 37%;
+    }
+
+    /*---ABOUT ME---*/
+
+    #about-me {
+        height: 390vh;
+    }
+
+     /*---MAIN PRODUCTS---*/
+
+     .main-products-box {
+        height: 150vh;
+    }   
+
+    /*---PRICE---*/
+
+    .best-price {
+        font-size: 1.8rem;
+    }
+
+    .price {
+        height: 35vh;
+    }
+
+    /*---SECTION BOOK---*/
+
+    #section-book {
+        height: 170vh;
+    }
+
+    .form-input {
+        width: 350%;
+    }
 
 }
