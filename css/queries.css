@@ -1,0 +1,351 @@
+/* 1024px to 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    /*---HEADER---*/
+
+    .heading-primary {
+        left: 25%;
+    }
+
+    .menu-wrap {
+        top: 5.1%;
+        right: 3%;
+      }
+      
+    .menu-wrap .toggler {
+        top: 5.1%;
+        right: 3%;
+      }
+      
+    .menu-wrap .hamburger {
+        top: 5.1%;
+        right: 3%;
+      }
+
+    .menu-wrap .menu > div {
+    width: 25vw;
+    }
+
+    /*---MAIN PRODUCTS---*/
+
+    .main-products-box {
+        height: 70vh;
+    }
+
+    /*---SECTION ABOUT ME---*/
+
+    #about-me {
+        height: 210vh;
+    }
+
+    /*---BOOK---*/
+
+    #section-book {
+       display: block;
+       padding: 4rem 4rem;
+    }
+
+    .book {
+        height: 45rem;
+    }
+
+    .form-input {
+        width: 150%;
+    }
+
+    .book-image {
+        height: 45rem;
+        margin-top: 3%;
+    }
+
+    /*---FOOTER---*/
+
+    .footer-media {
+        width: 20%;
+      }
+
+    /*---Products page---*/
+
+  .fa-arrow-left {
+    left: 1%;
+  }
+}
+
+/* 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+
+    /*---HEADER---*/
+
+    .heading-primary {
+        left: 33%;
+    }
+
+    .menu-wrap {
+        top: 5.1%;
+        right: 4%;
+    }
+      
+    .menu-wrap .toggler {
+        top: 5.1%;
+        right: 4%;
+    }
+      
+    .menu-wrap .hamburger {
+        top: 5.1%;
+        right: 4%;
+    }
+
+    .menu-wrap .menu > div {
+        width: 31vw;
+    }
+
+    /*---SECTION ABOUT CLUB---*/
+
+    .info {
+        display: block;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .info-box ul {
+        list-style: none;
+    }
+
+    .info-about-club {
+        margin-bottom: 3%;
+    }
+
+    /*---SECTION ABOUT ME---*/
+
+    #about-me {
+        display: block;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    .about-box {
+        width: 100%;
+    }
+
+    .about-me-text {
+        height: 60%;
+    }
+
+    .about-me-img {
+        height: 40%;
+        background-position: top;
+    }
+
+    /*---MAIN PRODUCTS---*/
+
+    .main-products-box {
+        height: 83vh;
+    }
+
+    /*---PRICE---*/
+
+    .price-box {
+        height: 100%;
+    }
+
+    /*-----BOOKING-----*/
+
+    #section-book {
+        height: 150vh;
+    }
+
+    .book {
+        height: 50%;
+    }
+
+    .book-image {
+       height: 50%;
+    }
+
+    /*---FOOTER---*/
+
+    .footer-info {
+        font-size: 1.5rem;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    /*---PRODUCTS PAGE---*/
+
+    .product-box {
+        width: 45%;
+      }
+
+}
+
+/* 481px-767px */
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        margin: 2rem;
+        line-height: 1.5;
+    }
+
+    .menu a {
+        font-size: 1.9rem;
+    }
+
+    .menu-wrap {
+        top: 3.4%;
+        right: 4.1%;
+    }
+      
+    .menu-wrap .toggler {
+        top: 3.4%;
+        right: 4.1%;
+    }
+      
+    .menu-wrap .hamburger {
+        top: 3.4%;
+        right: 4.1%;
+    }
+
+    .menu-wrap .menu > div {
+        width: 38vw;
+        }
+
+    .contacts {
+        width: 80%;
+    }
+
+
+    .icons-messengers, 
+    .icons-social-media {
+    font-size: 2.1rem;
+  }
+
+    .heading-primary {
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        top: 50%;
+    }
+
+    /*---SECTION ABOUT CLUB---*/
+
+    #section-about-club {
+        padding: 5rem 0;
+    }
+
+    .info-box {
+        font-size: 1.8rem;
+    }
+
+    /*---SECTION ABOUT ME---*/
+
+    #about-me {
+        height: 230vh;
+
+    }
+
+    .about-me-text {
+        height: 70%;
+        font-size: 1.8rem;
+    }
+
+    .about-me-img {
+        height: 30%;
+    }
+
+    /*-----MAIN PRODUCTS-----*/
+
+    .main-products-box {
+        display: block;
+        height: vh;
+    }
+
+    .main-products-img {
+        width: 100%;
+        height: 45%;
+    }
+
+    .main-products-img-3 {
+        height: 33%;
+    }
+
+    .main-products-text { 
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+        /*---PRICE---*/
+
+    .best-price {
+        font-size: 2.5rem;
+    }
+
+    .price-including {
+        font-size: 1.8rem;
+        padding: 3% 0;
+    }
+
+    /*---BOOK---*/
+
+    #section-book {
+        height: 120vh;
+        padding: 0;
+    }
+
+    .book {
+        height: 50%;
+    }
+
+    .heading-secondary-reg {
+        font-size: 2rem;
+    }
+
+    .book-form {
+        width: 50%;
+        padding: 4rem;
+    }
+
+    .form-input {
+        width: 200%;
+    }
+
+    .book-image {
+       height: 50%;
+       width: 100%;
+       margin-top: 0;
+    }
+
+    /*-----FOOTER-----*/
+
+    .footer-info {
+        font-size: 1.2rem;
+    }
+
+    .footer-media {
+        width: 40%;
+    }
+
+    .f-w {
+        font-size: 2rem;
+    }
+
+    .herbalife-link {
+        margin-left: 0%;
+      }
+
+      /*---PRODUCTS PAGE---*/
+
+      .products-wrapper {
+          display: block;
+      }
+
+      .product-box {
+        width: 95%;
+        margin: 0 auto;
+      }
+
+
+}
