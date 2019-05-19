@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="php/contactform.php">
     <link rel="shortcut icon" type="image/png" href="resources/img/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -290,7 +291,7 @@
 
             <div class="book">
                 <div class="book-form">
-                    <form action="#" class="form">
+                    <form action="contactform.php" class="form" method="post">
 
                         <div  class="book-margin">
                             <h2 class="heading-secondary-reg">
@@ -299,11 +300,11 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Имя" id="name" required>
+                            <input type="text" name="name" class="form-input" placeholder="Имя" id="name" required>
                             <label for="name" class="form-label">Имя</label>
                         </div>
                         <div class="form-group">
-                            <input type="phone" class="form-input" placeholder="Номер телефона" id="phone" required>
+                            <input type="phone" name="phone" class="form-input" placeholder="Номер телефона" id="phone" required>
                             <label for="phone" class="form-label">Номер телефона</label>
                         </div>
                         <div class="form-group">
