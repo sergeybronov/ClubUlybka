@@ -74,13 +74,20 @@
 
 /* 768px to 1023px */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
 
     /*---HEADER---*/
 
     .heading-primary {
         left: 33%;
     }
+
+    .logo img{
+        height: 30%;
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        }
 
     .menu-wrap {
         top: 4.8%;
@@ -186,6 +193,11 @@
 /* 481px-767px */
 
 @media only screen and (max-width: 767px) {
+
+    .b-popup .b-popup-content {
+        width: 55%;
+        height: 50%;
+    }
 
     body {
         margin: 2rem;
@@ -320,6 +332,10 @@
 
     /*-----FOOTER-----*/
 
+    footer {
+        height: 50rem;
+    }
+
     .footer-info {
         font-size: 1.2rem;
     }
@@ -416,6 +432,10 @@
 }
 
 @media only screen and (max-width: 320px) {
+    
+    footer {
+        height: 55rem;
+    }
 
     .menu a {
         font-size: 1.4rem;
