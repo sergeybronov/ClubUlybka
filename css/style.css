@@ -672,7 +672,7 @@ body {
 
 .heading-secondary-reg {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
@@ -681,6 +681,10 @@ body {
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.surprise {
+  color:#28b485;
 }
 
 .form-group:not(:last-child) {
@@ -739,11 +743,12 @@ button:focus {
     outline: none;
 }
 
+
 /*-----FOOTER-----*/
 
 footer {
     background-color: #333;
-    height: 40rem;
+    height: 45rem;
 }
 
 footer h2 {

@@ -47,7 +47,7 @@
     }
 
     .book {
-        height: 45rem;
+        height: 30%;
     }
 
     .form-input {
@@ -166,7 +166,7 @@
     }
 
     .book {
-        height: 50%;
+        height: 40%;
     }
 
     .book-image {
@@ -308,7 +308,7 @@
     }
 
     .book {
-        height: 50%;
+        height: 60%;
     }
 
     .heading-secondary-reg {
@@ -328,12 +328,15 @@
        height: 50%;
        width: 100%;
        margin-top: 0;
+       background-size: 100%;
+       background-repeat: no-repeat;
+
     }
 
     /*-----FOOTER-----*/
 
     footer {
-        height: 50rem;
+        height: 65rem;
     }
 
     .footer-info {
@@ -434,7 +437,7 @@
 @media only screen and (max-width: 320px) {
     
     footer {
-        height: 55rem;
+        height: 70rem;
     }
 
     .menu a {
